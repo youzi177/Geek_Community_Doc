@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 项目介绍
-      link: /v1/project
+      link: /V1/project
     - theme: alt
       text: 快速开始
-      link: /v1/project/getting-started
+      link: /V1/project/getting-started
 
 features:
   - icon: { src: /多端应用 (1).svg, width: 48, height: 48 }
