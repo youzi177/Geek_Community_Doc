@@ -9,14 +9,42 @@ export default defineConfig({
     // 顶部导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '项目介绍', link: '/V1/project/index.md' },
-      { text: 'PC端', link: '/V1/pc/index.md' },
-      { text: '后端', link: 'V1/api/index.md' },
-      { text: '中后台', link: '/V1/admin/index.md' },
-      { text: 'Flutter', link: '/V1/flutter/index.md' },
-      { text: '小程序', link: '/V1/uniappx/index.md' },
-      { text: '鸿蒙', link: '/V1/harmony/index.md' },
-      { text: '部署上线', link: '/V1/deploy/index.md' },
+      {
+        text: '项目介绍',
+        link: '/V1/project/',
+        activeMatch: '^/V1/project/',
+      },
+      {
+        text: 'PC端',
+        link: '/V1/pc/index.md',
+        activeMatch: '^/V1/pc/',
+      },
+      { text: '后端', link: 'V1/api/index.md', activeMatch: '^/V1/api/' },
+      {
+        text: '中后台',
+        link: '/V1/admin/index.md',
+        activeMatch: '^/V1/admin/',
+      },
+      {
+        text: 'Flutter',
+        link: '/V1/flutter/index.md',
+        activeMatch: '^/V1/flutter/',
+      },
+      {
+        text: '小程序',
+        link: '/V1/uniappx/index.md',
+        activeMatch: '^/V1/uniappx/',
+      },
+      {
+        text: '鸿蒙',
+        link: '/V1/harmony/index.md',
+        activeMatch: '^/V1/harmony/',
+      },
+      {
+        text: '部署上线',
+        link: '/V1/deploy/index.md',
+        activeMatch: '^/V1/deploy/',
+      },
     ],
     // 左侧，侧边栏
     sidebar: {
@@ -25,7 +53,10 @@ export default defineConfig({
         {
           text: '项目简介',
           items: [
-            { text: '项目简介', link: '/V1/project/' },
+            {
+              text: '项目简介',
+              link: '/V1/project/',
+            },
             { text: '快速开始', link: '/V1/project/getting-started' },
           ],
         },
@@ -33,13 +64,22 @@ export default defineConfig({
       'V1/pc/': [
         {
           text: 'PC端',
-          items: [{ text: '项目简介', link: '/V1/pc/' }],
+          items: [
+            { text: '项目简介', link: '/V1/pc/' },
+            { text: '前端项目初始化', link: '/V1/pc/2026070901' },
+            { text: '集成vee-validate', link: '/V1/pc/2026070902' },
+            { text: '对接验证码接口', link: '/V1/pc/2026071001' },
+          ],
         },
       ],
       'V1/api/': [
         {
           text: '后端',
-          items: [{ text: '项目简介', link: '/V1/api/' }],
+          items: [
+            { text: '项目简介', link: '/V1/api/' },
+            { text: '第一个restful应用', link: '/V1/api/2026070903' },
+            { text: '验证码接口', link: '/V1/api/2026070904' },
+          ],
         },
       ],
       'V1/admin/': [
@@ -75,8 +115,20 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      {
+        icon: 'github',
+        link: 'https://github.com/youzi177/Geek_Community_Doc',
+      },
     ],
+    // 搜索
+    search: {
+      provider: 'local',
+    },
+    outline: {
+      label: '页面导航', // 将文字修改为“页面导航”
+      level: [2, 6], // 可选：让右侧目录同时支持 h2-h6 级别的标题（默认只显示 h2 和 h3）
+    },
+    // aside: false,
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2026 Youzi177',
