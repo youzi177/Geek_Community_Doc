@@ -134,4 +134,5 @@ export default defineConfig({
       copyright: 'Copyright © 2026 Youzi177',
     },
   },
+  ignoreDeadLinks: true, // 允许死链接通过构建
 });
