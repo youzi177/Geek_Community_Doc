@@ -83,6 +83,8 @@ export default defineConfig({
             { text: '验证码接口', link: '/V1/api/2026070904' },
             { text: '配置邮箱服务接口', link: '/V1/api/2026071102' },
             { text: '优化邮箱服务环境变量', link: '/V1/api/2026071104' },
+            { text: '服务器环境搭建', link: '/V1/api/2026071105' },
+            { text: '集成数据库', link: '/V1/api/2026071201' },
           ],
         },
       ],
