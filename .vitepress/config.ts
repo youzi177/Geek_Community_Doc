@@ -90,6 +90,8 @@ export default defineConfig({
             { text: '集成数据库', link: '/V1/api/2026071201' },
             { text: '图片验证码校验和存储', link: '/V1/api/2026071303' },
             { text: '验证码校验和完善接口', link: '/V1/api/2026071402' },
+            { text: '集成JWT', link: '/V1/api/2026071501' },
+            { text: '优化登录注册接口', link: '/V1/api/2026071502' },
           ],
         },
       ],
