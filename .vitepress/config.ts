@@ -74,6 +74,10 @@ export default defineConfig({
             { text: '封装Axios', link: '/V1/pc/2026071301' },
             { text: '图片验证码校验和存储', link: '/V1/pc/2026071302' },
             { text: 'vee-validate后端返回错误显示', link: '/V1/pc/2026071401' },
+            {
+              text: '封装alert&优化登录注册错误显示',
+              link: '/V1/pc/2026071601',
+            },
           ],
         },
       ],
