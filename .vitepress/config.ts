@@ -78,6 +78,18 @@ export default defineConfig({
               text: '封装alert&优化登录注册错误显示',
               link: '/V1/pc/2026071601',
             },
+            {
+              text: '首页静态页面&温馨通道样式改写',
+              link: '/V1/pc/2026071801',
+            },
+            {
+              text: '首页Panel部分路由交互',
+              link: '/V1/pc/2026071802',
+            },
+            {
+              text: '前端首页接口的开发',
+              link: '/V1/pc/2026071803',
+            },
           ],
         },
       ],
