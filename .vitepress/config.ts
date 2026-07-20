@@ -90,6 +90,10 @@ export default defineConfig({
               text: '前端首页接口的开发',
               link: '/V1/pc/2026071803',
             },
+            {
+              text: '封装ListItem',
+              link: '/V1/pc/2026071901',
+            },
           ],
         },
       ],
