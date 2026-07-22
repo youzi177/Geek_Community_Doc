@@ -98,6 +98,15 @@ export default defineConfig({
               text: '长列表的最后一页和请求锁',
               link: '/V1/pc/2026072001',
             },
+
+            {
+              text: 'axios取消重复请求',
+              link: '/V1/pc/2026072102',
+            },
+            {
+              text: '首页列表监听筛选数据和路由分类',
+              link: '/V1/pc/2026072103',
+            },
           ],
         },
       ],
@@ -116,6 +125,10 @@ export default defineConfig({
             { text: '验证码校验和完善接口', link: '/V1/api/2026071402' },
             { text: '集成JWT', link: '/V1/api/2026071501' },
             { text: '优化登录注册接口', link: '/V1/api/2026071502' },
+            {
+              text: '完成文章和用户的数据表和接口开发',
+              link: '/V1/api/2026072201',
+            },
           ],
         },
       ],
