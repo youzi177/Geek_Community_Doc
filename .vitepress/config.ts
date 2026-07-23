@@ -129,6 +129,10 @@ export default defineConfig({
               text: '完成文章和用户的数据表和接口开发',
               link: '/V1/api/2026072201',
             },
+            {
+              text: '首页侧边栏接口开发和数据表',
+              link: '/V1/api/2026072302',
+            },
           ],
         },
       ],
