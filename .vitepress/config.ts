@@ -107,6 +107,10 @@ export default defineConfig({
               text: '首页列表监听筛选数据和路由分类',
               link: '/V1/pc/2026072103',
             },
+            {
+              text: '优化用户登录路由',
+              link: '/V1/pc/2026072303',
+            },
           ],
         },
       ],
@@ -132,6 +136,10 @@ export default defineConfig({
             {
               text: '首页侧边栏接口开发和数据表',
               link: '/V1/api/2026072302',
+            },
+            {
+              text: '优化用户登录路由',
+              link: '/V1/api/2026072304',
             },
           ],
         },
